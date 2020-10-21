@@ -1,0 +1,501 @@
+body {
+	margin: 0;
+}
+
+/* Header CSS */
+.content-header {
+	height: 667px;
+	background-color: #2F4254;
+}
+.img-grande {
+	padding: 60px 0 10px 0;
+	height: 350px;
+}
+.h1-name { 
+	display: inline;
+	color: white;
+	font-size: 80px;
+	font-weight: 100;
+}
+.btn-header {
+	background-color: transparent;
+	width: 50px;
+	height: 40px;
+	margin: 0 4px 0 4px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	border-top: 4px solid #16A085;
+}
+.btn-header:hover {
+	border: none;
+}
+.img-redes {
+	padding-top: 7px;
+	width: 20px;
+}
+.img-fb:hover {
+	content: url(access/images/face-hover.png);
+}
+.img-twitter:hover {
+	content: url(access/images/twitter-hover.png);
+}
+.img-google-plus:hover {
+	content: url(access/images/google-plus-hover.png);
+}
+.img-in:hover {
+	content: url(access/images/in-hover.png);
+}
+.h1-over {
+	padding: 5px 3px 0 0;
+	display: inline;
+	color: white;
+	font-weight: 100;
+	font-size: 25px;
+}
+.img-over {
+	height: 20px;
+}
+.btn-over {
+	border: 1px solid white;
+	border-bottom: 3px solid white;
+	border-radius: 5px;
+	background-color: transparent;
+	height: 50px;
+	width: auto;
+	cursor: pointer;
+	margin: 20px 10px 0 10px;
+	font-size: 17px;
+	color: white;
+}
+.btn-over:hover {
+	border: 1px solid #16A085;
+	border-bottom: 3px solid #16A085;
+	border-radius: 5px;
+	background-color: transparent;
+	height: 50px;
+	width: auto;
+	cursor: pointer;
+	margin: 20px 10px 0 10px;
+	font-size: 17px;
+	color: #16A085;
+	transition: 0.4s;
+}
+.img-hover:hover {
+	content: url(access/images/smile-hover.png);
+	transition: 0.4s;
+}
+.btn-over2 {
+	border: 1px solid #16A085;
+	border-bottom: 3px solid #16A085;
+	border-radius: 5px;
+	background-color: transparent;
+	height: 50px;
+	width: auto;
+	cursor: pointer;
+	margin: 20px 10px 0 10px;
+	font-size: 17px;
+	color: #16A085;
+}
+.img-btn-over {
+	width: 14px;
+}
+
+/* Seccion 2 CSS */
+.section-content {
+	width: 100%;
+	height: 100%;
+	background-color: #34495E;
+}
+.section-content-in {
+	padding: 70px 100px 5px 100px;
+}
+.img-avatar {
+	width: 150px;
+}
+.section-content-in h1 {
+	width: 150px;
+	color: white;
+	font-weight: 100;
+	border-bottom: 3px solid white;
+}
+.section-content-in p b {
+	color: white;
+	font-size: 19px;
+	font-weight: 100;
+	line-height: 27px;
+}
+
+/* Section 3 CSS */
+.section-content-2 {
+	width: 100%;
+	height: 100%;
+	background-color: #1ABC9C;
+	border-top: 9px solid #17A98C;
+}
+.section-content-2-in {
+	padding: 15px 100px 5px 100px;
+}
+.section-content-2-in h1 {
+	color: white;
+	font-size: 65px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+.section-content-2-in p {
+	color: white;
+	font-size: 16px;
+	font-family: Arial;
+}
+.section-content-2-in div div {
+	width: 24%;
+}
+.content-icons div h1 {
+	color: white;
+	font-size: 27px;
+}
+.content-icons div p {
+	color: white;
+	margin: 0 15px 0 15px;
+	font-size: 17px;
+	padding-bottom: 50px;
+}
+.content-icons div h1:hover {
+	color: #2F4254;
+	padding-top: 20px;
+	transition: 0.4s;
+}
+
+/* Section 4 CSS */
+.content-nums {
+	width: 100%;
+	background-color: #34495E;
+	border-top: 5px solid #2F4254;
+}
+.content-nums div {
+	padding: 10px 0 1px 50px;
+}
+.content-nums div div {
+	width: 11%;
+}
+.img-nums {
+	width: 20px;
+}
+.p-nums {
+	color: white;
+}
+.p-nums b {
+	border-bottom: 3px solid #EC5A64;
+}
+.p-nums p {
+	font-weight: 100;
+	font-family: Arial;
+}
+
+/* Section 5 CSS */
+.content-section-4 {
+	width: 100%;
+	background-color: #1ABC9C;
+	border-top: 5px solid #17A98C;
+}
+.content-section-4 div h1 {
+	color: white;
+	font-weight: 100;
+	font-size: 50px;
+}
+.content-section-4 div p {
+	color: white;
+	font-size: 17px;
+	margin-bottom: 30px;
+}
+.content-section-4-in {
+	margin: 50px 50px 0 0;
+	padding-bottom: 70px;
+}
+.content-section-4-in div {
+	width: 50%;
+}
+.identify {
+	width: 100%;
+	margin: 0;
+}
+.identify img {
+	width: 60px
+}
+.identify div h1 {
+	font-weight: 100;
+	font-size: 30px;
+	margin: 0;
+	width: 300px;
+}
+.identify div p {
+	width: 300px;
+}
+.btn-section-4 {
+	width: auto;
+	height: 35px;
+	color: white;
+	background-color: #EC5A64;
+	border-radius: 5px;
+	border: none;
+	border-bottom: 3px solid #DA4F58;
+	cursor: pointer;
+}
+.btn-section-4:hover {
+	background-color: #DA4F58;
+}
+.btn-section-4 img {
+	width: 20px;
+}
+.img-imac {
+	margin-top: 50px;
+	width: 600px;
+}
+
+/* Section 5 CSS */
+.section-5 {
+	width: 100%;
+	background-color: #34495E;
+	color: white;
+	border-top: 5px solid #2F4254;
+}
+.section-5 div {
+	padding: 30px;
+	padding-right: 300px;
+	padding-left: 350px;
+}
+.section-5 blockquote {
+	border-right: 5px solid #2F4254;
+}
+.section-5 blockquote p {
+	font-size: 20px;
+	font-family: Arial;
+	padding-right: 10px;
+}
+.section-5 blockquote footer {
+	color: #268981;
+	font-family: Arial;
+	padding-right: 10px;
+}
+
+/* Section 6 CSS */
+.section-6 {
+	width: 100%;
+	background-color: #1ABC9C;
+	color: white;
+	border-top: 5px solid #17A98C;
+}
+.section-6 div h1 {
+	font-size: 50px;
+	font-weight: 100;
+}
+.section-6 div p {
+	font-family: Arial;
+	padding-top: 0;
+	padding-bottom: 25px;
+}
+.section-6 img {
+	width: 300px;
+	padding: 25px;
+}
+.desesperacion {
+	padding-left: 150px;
+	padding-bottom: 70px;
+}
+
+/* Section 7 CSS */
+.content-section-7 {
+	width: 100%;
+	background-color: #34495E;
+	color: white;
+	border-top: 5px solid #2C3E50;
+}
+.content-top h1 {
+	font-size: 50px;
+	font-weight: 100;
+}
+.content-top p {
+	font-family: Arial;
+	font-size: 16px;
+}
+.content-megaphones {
+	width: 100%;
+	padding: 50px 0 50px 0;
+}
+.div-megaphones {
+	width: 33.33%;
+	height: 5px;
+	background-color: #ED5A64;
+	float: left;
+}
+.img-content-7 {
+	padding: 0 170px 0 170px;
+	width: 35px;
+}
+.div-content-bottom {
+	padding-left: 145px;
+}
+.content-div-buttons {
+	width: 27%;
+	margin: 15px 25px 15px 25px;
+	float: left;
+	outline: none;
+}
+.content-div {
+	background-color: #2C3E50;
+	padding: 5px 25px 15px 25px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+}
+.content-div h1 {
+	font-size: 30px;
+	font-weight: 100;
+	font-family: Arial;
+}
+.content-div p {
+	font-size: 18px;
+	font-weight: 100;
+	font-family: Arial;
+}
+.button-content-div {
+	padding: 8px;
+	background-color: #EC5A64;
+	border: none;
+	border-bottom: 3px solid #DA4F58;
+	border-radius: 5px;
+	color: white;
+	float: right;
+}
+.button-content-div:hover {
+	background-color: #DA4F58;
+	cursor: pointer;
+}
+.buttons-div {
+	width: 100%
+}
+.buttons-div button {
+	color: #999999;
+	font: bold;
+	border: 1px solid grey;
+}
+.btn1, .btn3, .btn4 {
+	width: 20%;
+	align-items: center;
+}
+.btn2 {
+	width: 36%;
+	align-items: center;
+}
+.btn1 {
+	border-bottom-left-radius: 7px;
+}
+.btn4 {
+	border-bottom-right-radius: 7px;
+}
+.img-buttons-div {
+	width: 20px;
+}
+
+/* Section 8 CSS */
+.section-8 {
+	width: 100%;
+	background-color: #1ABC9C;
+	border: none;
+	border-top: 5px solid #189880;
+	color: white;
+	padding-bottom: 50px;
+}
+.section-8-top h1 {
+	font-size: 50px;
+	font-family: Arial;
+	font-weight: 100;
+}
+.section-8-top p {
+	font-size: 17px;
+	font-family: Arial;
+}
+.section-8-content {
+	padding-top: 40px;
+	padding-left: 100px;
+}
+.div-8 {
+	width: 25%;
+	padding: 15px 0 0 0;
+	border-radius: 5px;
+	background-color: #2C3F51;
+	float: left;
+	margin-left: 50px;
+}
+.price {
+	color: #2C3F51;
+	border-radius: 100px;
+	background-color: white;
+	padding: 20px;
+	width: 25px;
+	height: 25px;
+	margin-bottom: 25px;
+}
+.price b {
+	font-family: Arial;
+}
+.menu {
+	width: 100%;
+	background-color: #EFF0F0;
+	color: #2C3F51;
+	padding: 10px 0 10px 0;
+}
+.menu p {
+	font-family: Arial;
+}
+.div-button {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #DFE0E0;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.div-button button {
+	color: white;
+	border-radius: 5px;
+	border: none;
+	background-color: #EC5B65;
+	width: 100px;
+	height: 30px;
+	border-bottom: 2px solid #DA4F58;
+	cursor: pointer;
+}
+.div-button button:hover {
+	background-color: #DA4F58;
+}
+
+/* Section 9 CSS */
+.section-9 {
+	width: 100%;
+	color: white;
+	background-color: #16A085;
+	border-top: 5px solid #149077;
+}
+.section-9 h1 {
+	font-size: 50px;
+	font-weight: 100;
+}
+.section-9 p {
+	font-size: 17px;
+	font-family: Arial;
+	font-weight: 100;
+}
+.section-9-content-div {
+	width: 49%;
+}
+.img-content-9-div {
+	float: left;
+}
+.img-content-9 {
+	width: 100px;
+}
+.div-content-9 {
+	float: left;
+	background-color: #149077;
+	border-radius: 5px;
+}
